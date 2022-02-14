@@ -1,0 +1,5 @@
+Library/__pycache__/
+book/__pycache__/
+book/management/commands/__pycache__/
+book/migrations/__pycache__/
+book/views/__pycache__/

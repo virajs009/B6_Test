@@ -1,0 +1,20 @@
+# # Function based view / class based view
+
+# # http://127.0.0.1:8000/ -- Base URL - Universal Resource Locator
+
+# def homepage(request):                       # request -- HttpRequest   
+#     return HttpResponse("Hello")             # response -- HttpResponse
+    
+# def homepage(request):
+#     a = "[1, 2, 3, 4]"
+#     print(request.method)                   # getting method called
+#     print(request.build_absolute_uri)       # getting absolute url
+#     return HttpResponse(a)
+
+# def homepage(request):
+#     return HttpResponse("<h1>Hola amiga</h1><h3>Good Evening....!</h3>")      # html lang syntax -- hypertext markup lang - view page source
+
+
+# print(request.method)
+# print(request.POST)
+

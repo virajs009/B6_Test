@@ -1,0 +1,103 @@
+In homepage view
+In homepage view
+In homepage view
+[2022-02-01 02:15:50] 2022-02-01 02:15:50 In homepage view
+[2022-02-01 02:16:33] 2022-02-01 02:16:33 In homepage view
+[2022-02-01 02:16:33] 2022-02-01 02:16:33 <QueryDict: {'csrfmiddlewaretoken': ['tVJERrGEYCwUDB4bAAQUvoPRuqGvwf289zrEGLzveEQhLYsYjjZR88NsqO8m6Ecx'], 'bname': ['Book1'], 'bprice': ['345'], 'bqty': ['5']}>
+[2022-02-01 02:16:33] 2022-02-01 02:16:33 In homepage view
+[2022-02-01 02:37:05] 2022-02-01 02:37:05 In homepage view
+[2022-02-01 02:46:55] 2022-02-01 02:46:55 In homepage view
+[2022-02-01 02:46:55] 2022-02-01 02:46:55 <QueryDict: {'csrfmiddlewaretoken': ['TMno1D5hF6TijfX5nSl1whDTv3gjCkSdzq5oQXY8V8dFrClS6BuY91BurrIacJ2C'], 'bname': ['Book1'], 'bprice': ['546'], 'bqty': ['6']}>
+[2022-02-01 02:46:55] 2022-02-01 02:46:55 In homepage view
+[2022-02-01 02:47:09] 2022-02-01 02:47:09 In homepage view
+[2022-02-01 02:47:09] 2022-02-01 02:47:09 Please provide book name
+[2022-02-01 02:47:20] 2022-02-01 02:47:20 In homepage view
+[2022-02-01 02:47:29] 2022-02-01 02:47:29 In homepage view
+[2022-02-01 02:47:29] 2022-02-01 02:47:29 <QueryDict: {'csrfmiddlewaretoken': ['Eh8DTjDupKUi4OimHUQNumVtvSs6oXEXkVQDIDwlFMeFcbG9qDZK76T4rgUXYmOm'], 'bname': ['Book2'], 'bprice': [''], 'bqty': ['6']}>
+[2022-02-01 02:47:29] 2022-02-01 02:47:29 Field 'price' expected a number but got ''.
+[2022-02-01 02:48:03] 2022-02-01 02:48:03 In homepage view
+[2022-02-01 02:48:08] 2022-02-01 02:48:08 In homepage view
+[2022-02-01 02:48:08] 2022-02-01 02:48:08 <QueryDict: {'csrfmiddlewaretoken': ['WCS1wHTNhG3pdoFYJrVj54k9OHhM1NgmCgA1l1MExInMlL3Lsa4gIOiKK5JDBcqL'], 'bname': ['Book2'], 'bprice': ['768'], 'bqty': ['']}>
+[2022-02-01 02:48:08] 2022-02-01 02:48:08 Field 'qty' expected a number but got ''.
+[2022-02-01 02:48:10] 2022-02-01 02:48:10 In homepage view
+[2022-02-01 02:48:18] 2022-02-01 02:48:18 In homepage view
+[2022-02-01 02:48:18] 2022-02-01 02:48:18 <QueryDict: {'csrfmiddlewaretoken': ['Ow7eRdVDPMY571N4Ve4u34JAejCSLY8EuaPeGxOu5OisfobREXdrGOHbaH4Jlni3'], 'bname': ['Book2'], 'bprice': ['768'], 'bqty': ['7']}>
+[2022-02-01 02:48:18] 2022-02-01 02:48:18 In homepage view
+[2022-02-01 02:49:34] 2022-02-01 02:49:34 All active books: books
+[2022-02-01 02:51:35] 2022-02-01 02:51:35 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: Book1>, <Book: Book2>]>
+[2022-02-01 02:52:39] 2022-02-01 02:52:39 In homepage view
+[2022-02-01 02:52:39] 2022-02-01 02:52:39 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: Book1>, <Book: Book2>]>
+[2022-02-01 02:54:02] 2022-02-01 02:54:02 Editing book: Book2
+[2022-02-01 02:54:16] 2022-02-01 02:54:16 In homepage view
+[2022-02-01 02:54:16] 2022-02-01 02:54:16 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: Book1>, <Book: Book2>]>
+[2022-02-01 02:54:27] 2022-02-01 02:54:27 Soft deleting active book: Book2
+[2022-02-01 02:54:27] 2022-02-01 02:54:27 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: Book1>]>
+[2022-02-01 02:58:38] 2022-02-01 02:58:38 Soft deleting active book: Book1
+[2022-02-01 02:58:38] 2022-02-01 02:58:38 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>]>
+[2022-02-01 02:58:53] 2022-02-01 02:58:53 Deleting book: Book1
+[2022-02-01 02:58:53] 2022-02-01 02:58:53 All active books: <QuerySet [<Book: Book1>, <Book: Book2>]>
+[2022-02-01 03:00:07] 2022-02-01 03:00:07 Soft deleting active book: Book2
+[2022-02-01 03:00:08] 2022-02-01 03:00:08 All active books: <QuerySet [<Book: Book1>]>
+[2022-02-01 03:00:44] 2022-02-01 03:00:44 All soft deleted books: <QuerySet [<Book: Book2>, <Book: Book1>, <Book: Book2>]>
+[2022-02-01 03:01:09] 2022-02-01 03:01:09 All soft deleted books: <QuerySet [<Book: Book1>, <Book: Book2>]>
+[2022-02-01 03:01:36] 2022-02-01 03:01:36 Restoring soft deleted book: Book1
+[2022-02-01 03:01:36] 2022-02-01 03:01:36 All soft deleted books: <QuerySet [<Book: Book2>]>
+[2022-02-01 03:03:07] 2022-02-01 03:03:07 Please provide book name
+[2022-02-01 03:05:42] 2022-02-01 03:05:42 <QueryDict: {'csrfmiddlewaretoken': ['BX6AsSepU6bFsaHHAiXYrJb9JHscq1fXhBOAhc7ga8v2Ax5uj16V4t9KF5U30qpm'], 'bname': ['dsg'], 'bprice': ['657'], 'bqty': ['7']}>
+[2022-02-01 03:05:48] 2022-02-01 03:05:48 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: dsg>]>
+[2022-02-01 03:05:55] 2022-02-01 03:05:55 Editing book: Book1
+[2022-02-01 03:06:07] 2022-02-01 03:06:07 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>, <Book: dsg>]>
+[2022-02-01 03:06:18] 2022-02-01 03:06:18 Soft deleting active book: dsg
+[2022-02-01 03:06:18] 2022-02-01 03:06:18 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book1>]>
+[2022-02-01 03:06:33] 2022-02-01 03:06:33 Deleting book: Book1
+[2022-02-01 03:06:33] 2022-02-01 03:06:33 All active books: <QuerySet [<Book: Book1>, <Book: Book2>]>
+[2022-02-01 03:06:54] 2022-02-01 03:06:54 All soft deleted books: <QuerySet [<Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:07:06] 2022-02-01 03:07:06 Restoring soft deleted book: Book2
+[2022-02-01 03:07:06] 2022-02-01 03:07:06 All soft deleted books: <QuerySet [<Book: dsg>]>
+[2022-02-01 03:07:14] 2022-02-01 03:07:14 All soft deleted books: <QuerySet []>
+[2022-02-01 03:07:40] 2022-02-01 03:07:40 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:07:42] 2022-02-01 03:07:42 Soft deleting active book: Book1
+[2022-02-01 03:07:42] 2022-02-01 03:07:42 All active books: <QuerySet [<Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:07:43] 2022-02-01 03:07:43 Soft deleting active book: Book2
+[2022-02-01 03:07:43] 2022-02-01 03:07:43 All active books: <QuerySet [<Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:07:51] 2022-02-01 03:07:51 All soft deleted books: <QuerySet [<Book: Book1>, <Book: Book2>]>
+[2022-02-01 03:07:53] 2022-02-01 03:07:53 Restoring all soft deleted books: Book1
+[2022-02-01 03:07:53] 2022-02-01 03:07:53 Restoring all soft deleted books: Book2
+[2022-02-01 03:07:53] 2022-02-01 03:07:53 All soft deleted books: <QuerySet []>
+[2022-02-01 03:08:53] 2022-02-01 03:08:53 Soft deleting all active books: Book1
+[2022-02-01 03:08:53] 2022-02-01 03:08:53 Soft deleting all active books: Book2
+[2022-02-01 03:08:53] 2022-02-01 03:08:53 Soft deleting all active books: Book2
+[2022-02-01 03:08:53] 2022-02-01 03:08:53 Soft deleting all active books: dsg
+[2022-02-01 03:10:25] 2022-02-01 03:10:25 All active books: <QuerySet []>
+[2022-02-01 03:10:27] 2022-02-01 03:10:27 All soft deleted books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:36] 2022-02-01 03:10:36 Restoring soft deleted book: Book1
+[2022-02-01 03:10:36] 2022-02-01 03:10:36 All soft deleted books: <QuerySet [<Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:36] 2022-02-01 03:10:36 Restoring soft deleted book: Book2
+[2022-02-01 03:10:36] 2022-02-01 03:10:36 All soft deleted books: <QuerySet [<Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:37] 2022-02-01 03:10:37 Restoring soft deleted book: Book2
+[2022-02-01 03:10:37] 2022-02-01 03:10:37 All soft deleted books: <QuerySet [<Book: dsg>]>
+[2022-02-01 03:10:41] 2022-02-01 03:10:41 All active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>]>
+[2022-02-01 03:10:52] 2022-02-01 03:10:52 Soft deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:52] 2022-02-01 03:10:52 Soft deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:52] 2022-02-01 03:10:52 Soft deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:10:52] 2022-02-01 03:10:52 Soft deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:14:44] 2022-02-01 03:14:44 All active books: <QuerySet []>
+[2022-02-01 03:14:47] 2022-02-01 03:14:47 All soft deleted books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:14:49] 2022-02-01 03:14:49 Restoring all soft deleted books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:14:49] 2022-02-01 03:14:49 All soft deleted books: <QuerySet []>
+[2022-02-01 03:15:00] 2022-02-01 03:15:00 Soft deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:16:24] 2022-02-01 03:16:24 Deleting all active books: <QuerySet [<Book: Book1>, <Book: Book2>, <Book: Book2>, <Book: dsg>]>
+[2022-02-01 03:16:41] 2022-02-01 03:16:41 All active books: <QuerySet []>
+[2022-02-01 03:18:08] 2022-02-01 03:18:08 <QueryDict: {'csrfmiddlewaretoken': ['LKEzq7tDsfPwuxLFq6D9PCEXN1BpVGpqromzfrmuIh9TCU9s9PM6smCyJp3gv5zP'], 'bname': ['drgedrt'], 'bprice': ['546'], 'bqty': ['6']}>
+[2022-02-01 03:18:15] 2022-02-01 03:18:15 <QueryDict: {'csrfmiddlewaretoken': ['nGe7fAiV8w45R4yev8RWv2HJ2d8p7vIw3kW74UbMoyosZrW1eR0T8MFkYBAgHUSV'], 'bname': ['sdfsf'], 'bprice': ['5453'], 'bqty': ['5']}>
+[2022-02-01 03:18:19] 2022-02-01 03:18:19 <QueryDict: {'csrfmiddlewaretoken': ['49LfL6NnG36Yg54upRT9AZXO4qvzPof6KNtfAqGeW5qlossh8A26dJVp0OXqpNpv'], 'bname': ['bcx'], 'bprice': ['464'], 'bqty': ['5']}>
+[2022-02-01 03:18:21] 2022-02-01 03:18:21 All active books: <QuerySet [<Book: drgedrt>, <Book: sdfsf>, <Book: bcx>]>
+[2022-02-01 03:18:22] 2022-02-01 03:18:22 Soft deleting active book: drgedrt
+[2022-02-01 03:18:23] 2022-02-01 03:18:23 All active books: <QuerySet [<Book: sdfsf>, <Book: bcx>]>
+[2022-02-01 03:18:27] 2022-02-01 03:18:27 All soft deleted books: <QuerySet [<Book: drgedrt>]>
+[2022-02-01 03:18:58] 2022-02-01 03:18:58 All active books: <QuerySet [<Book: sdfsf>, <Book: bcx>]>
+[2022-02-01 03:19:01] 2022-02-01 03:19:01 Deleting all active books: <QuerySet [<Book: sdfsf>, <Book: bcx>]>
+[2022-02-01 03:19:04] 2022-02-01 03:19:04 All soft deleted books: <QuerySet [<Book: drgedrt>]>
+[2022-02-01 03:19:15] 2022-02-01 03:19:15 All active books: <QuerySet []>
+[2022-02-01 03:19:20] 2022-02-01 03:19:20 All active books: <QuerySet []>
+[2022-02-01 03:19:24] 2022-02-01 03:19:24 All soft deleted books: <QuerySet [<Book: drgedrt>]>
